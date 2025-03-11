@@ -45,3 +45,14 @@
     })
     export class AppModule {    }
     ```
+
+## Using the "Bleeding Edge" of the `main` Branch
+
+You can install unreleased builds of the `@clr/ui` and `@clr/angular` packages by installing our prebuilt branches.
+These branches are automatically built after each commit to the `main` branch, so you can use features before we release
+to npm.
+
+```bash
+npm install @clr/ui@github:ng-clarity/ng-clarity.git#main-prebuilt-clr-ui
+npm install @clr/angular@github:ng-clarity/ng-clarity.git#main-prebuilt-clr-angular
+```
