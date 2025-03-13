@@ -2,6 +2,8 @@
 
 # Clarity Angular
 
+test
+
 ## Getting Started
 
 Clarity Angular is published as two npm packages:
