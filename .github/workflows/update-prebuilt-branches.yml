@@ -1,7 +1,10 @@
 name: Update Prebuilt Branches
 on:
   push:
-    branches: main
+    branches:
+      - main
+      - next
+      - beta
 permissions:
   contents: write
 concurrency:
@@ -25,4 +28,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Update Prebuilt Branches
+        env:
+          GIT_BRANCH: ${{github.ref_name}}
+          GIT_COMMIT_SHA: ${{github.sha}}
         run: ./scripts/update-prebuilt-branches.sh

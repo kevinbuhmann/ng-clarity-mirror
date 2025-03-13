@@ -53,6 +53,6 @@ These branches are automatically built after each commit to the `main` branch, s
 to npm.
 
 ```bash
-npm install @clr/ui@github:ng-clarity/ng-clarity.git#main-prebuilt-clr-ui
-npm install @clr/angular@github:ng-clarity/ng-clarity.git#main-prebuilt-clr-angular
+npm install @clr/ui@github:ng-clarity/ng-clarity.git#prebuilt/main/clr-ui
+npm install @clr/angular@github:ng-clarity/ng-clarity.git#prebuilt/main/clr-angular
 ```
